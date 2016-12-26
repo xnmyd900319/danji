@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    line-height:1;
+    font-family:Microsoft Yahei;
+}
+ul, ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+img{
+    border:none;
+}
+.w1200{
+    margin:0 auto;
+    width:1200px;
+}
+.icon{
+    background-image:url(../image/icon.png);
+}
+body{
+    padding-top:80px;
+}
+.clear{
+    clear: both;
+}
+/*顶部导航*/
+.topNav{
+    top:0;
+    padding:20px 0;
+    width:100%;
+    height:36px;
+    background-color:white;
+    border-top:4px solid rgb(255, 88, 26);
+}
+.logo{
+    float:left;
+    margin:0 18px 0 6px;
+    width:82px;
+    height:36px;
+    background-image:url(../image/logo.png);
+}
+.area{
+    float:left;
+    margin:3px 50px 3px 0;
+    width:86px;
+    height:28px;
+    border:1px solid rgb(237, 237, 237);
+    border-radius:2px;
+}
+.area span{
+    display:block;
+    padding-left:23px;
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+    color:rgb(102, 102, 102);
+    cursor:pointer;
+}
+.area .fixedBox{
+    margin-top:3px;
+    margin-left:-1px;
+    width:360px;
+    height:235px;
+    border:1px solid rgb(255, 88, 26);
+    display:none;
+}
+.topNav a{
+    color:rgb(51, 51, 51);
+}
+.topNav .anchor{
+    float:left;
+    margin-right:34px;
+    font-size:14px;
+    line-height:36px;
+    vertical-align:middle;
+}
+.topNav a.anchor:hover, .top .sign:hover{
+    color:rgb(255, 88, 26);
+}
+.topNav div.anchor{
+    display:inline;
+}
+.topNav input{
+    float:left;
+    margin-right:65px;
+    padding:0 8px;
+    width:200px;
+    height:28px;
+    border:2px solid rgb(230, 230, 230);
+    line-height:28px;
+    outline:none;
+}
+.topNav input:focus{
+    border-color:rgb(204, 204, 204);
+}
+.topNav .sign{
+    float:left;
+    margin-right:15px;
+    font-size:12px;
+    line-height:36px;
+}
+.topNav .tel{
+    float:right;
+    width:154px;
+    height:36px;
+}
+.topNav.normal{
+    position:absolute;
+}
+.topNav.fixed{
+    position:fixed;
+    z-index:2;
+}
+
+/*主体内容*/
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main h1 {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0 20px 0;
+}
+
+.main h3{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    color: #666666;
+    font-weight: bold;
+    border: 1px solid #666666;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+.main a{
+    color: #666666;
+    font-size: 14px;
+    float: left;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+/*底部导航*/
+.bottomNav{
+    height:400px;
+    background-color:rgb(31, 31, 31);
+}
+.bottomNav ul{
+    height: 162px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.bottomNav ul li{
+    width: 190px;
+    margin: 34px 0;
+    float: left;
+}
+.bottomNav ul li h3{
+    color: #FFF;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.bottomNav ul li p{
+    font-size: 12px;
+    color: #717171;
+    line-height: 24px;
+}
+
+.city{
+    width: 1200px;
+    color: #717171;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.city a{
+    line-height: 24px;
+    padding: 0 5px;
+}
+
+.lianjie{
+    width: 1200px;
+    border-top: 1px solid #717171;
+    border-bottom: 1px solid #717171;
+    margin: 0 auto;
+    margin-top: 34px;
+    padding: 10px 0;
+}
+.lianjie a{
+    color: #717171;
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 26px;
+    display: block;
+    float: left;
+}
+
+.bq{
+    width: 1200px;
+    color: #717171;
+    font-size: 12px;
+    margin: 10px auto;
+}
